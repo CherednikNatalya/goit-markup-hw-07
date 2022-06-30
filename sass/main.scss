@@ -1,7 +1,18 @@
-.body {
-    color: azure;
-}
+// utils
+@import "./utils/variables";
+// base
+@import "./base/reset";
 
-.header {
+// components
 
-}
+@import "./components/conteiner";
+
+
+@import "./layout/heder";
+@import "./layout/hero";
+@import "./layout/benefits";
+@import "./layout/work";
+@import "./layout/clients";
+@import "./layout/team";
+@import "./layout/modal";
+@import "./layout/form";
