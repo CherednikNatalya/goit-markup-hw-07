@@ -19,18 +19,15 @@ color: var(--main-title-color);
 
 .img__item {
   margin-right: 30px;
+  &:last-child {
+  margin-right: 0;
+}
 }
 
 .img__cart{
   display: block; 
   max-width: 100%; 
   height: auto;
-}
-
-
-
-.img__item:last-child {
-  margin-right: 0;
 }
 
 .img__top{

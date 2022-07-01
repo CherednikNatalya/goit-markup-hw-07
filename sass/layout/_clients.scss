@@ -3,7 +3,6 @@
   padding-bottom: 96px;
 }
 
-
 .clients__title {
   margin-bottom: 50px;
   font-weight: 700;
@@ -25,12 +24,14 @@ color: var(--main-title-color);
   height: 92px;
 border-radius: 4px;
   border: 1px solid #AFB1B8;
-}
-
-.clients__item:last-child {
+  &:last-child {
   margin-right: 0;
 }
-
+  &:hover,
+&:focus {
+  border-color: var(--accent-color);
+}
+}
 
 .clients__link {
   width: 100%;
@@ -48,15 +49,10 @@ border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    align-items: center;
    justify-content: center;
 fill: currentColor;
-}
-
-.clients__item:hover,
-.clients__item:focus {
-  border-color: var(--accent-color);
-}
-
-
-.clients__link:hover .clients__icon,
-.clients__link:focus .clients__icon {
+.clients__link:hover &,
+.clients__link:focus & {
   fill: var(--accent-color);
 }
+}
+
+
