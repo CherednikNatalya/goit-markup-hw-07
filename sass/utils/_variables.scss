@@ -1,5 +1,4 @@
-:root
-    {
+:root {
   --main-title-color:#212121 ;
   --second-title-color: #757575;
   --third-title-color: #FFFFFF;;
@@ -7,8 +6,7 @@
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.visually-hidden
-    {
+.visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
