@@ -2,12 +2,15 @@
 @import "./utils/variables";
 // base
 @import "./base/reset";
+@import "./base/common";
 
 // components
 
 @import "./components/conteiner";
+@import "./components/button-item";
+@import "./components/button";
 
-
+// layout
 @import "./layout/heder";
 @import "./layout/hero";
 @import "./layout/benefits";
@@ -16,3 +19,6 @@
 @import "./layout/team";
 @import "./layout/modal";
 @import "./layout/form";
+@import "./layout/portfolio";
+@import "./layout/product";
+
